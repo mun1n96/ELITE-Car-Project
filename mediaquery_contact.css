@@ -1,0 +1,96 @@
+@media only screen and (min-width: 768px){
+    header {
+        background: rgba(0,0,0,0.5);
+        background-image: url(./Header.jpg);
+        background-position: center;
+        background-size: cover;
+        background-blend-mode: darken;
+        padding: 15px;
+    
+        position: sticky;
+        z-index: 1;
+        top: 0;
+    
+        display: flex;
+        justify-content: space-between;
+    }
+    .logo {
+        padding: 15px;
+    }
+    .first-logo {
+        color: red;
+        font-size: 32px;
+        font-style: italic;
+        text-decoration: underline;
+    }
+    .second-logo {
+        color: white;
+        font-size: 12px;
+        font-style: italic;
+    }
+    ion-icon{
+        font-size: 32px;
+    }
+    nav {
+        padding: 15px;
+        display: flex;
+        align-items: center;
+        justify-content: end;
+        gap: 50px;
+    }
+    nav a {
+        padding: 15px;
+        color: white;
+        text-decoration: none;
+        font-size: 12px;
+        align-items: center;
+        text-align: center;
+    }
+    div.menu a {
+        display: none;
+    }
+    nav.normal {
+        font-size: 24px;
+        display: initial;
+    }
+    .motto-banner {
+        padding: 15px;
+        text-align: center;
+        font-size: 50px;
+        font-style: bold;
+        text-shadow: 0 0 10px black;
+    }
+    .section-I {
+        padding: 15px;
+    
+        display: grid;
+        gap: 5px;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr;
+    }
+}
+@media only screen and (min-width: 992px){
+    ion-icon{
+        font-size: 32px;
+    }
+}
+@media only screen and (min-width: 1276px){
+    nav a {
+        padding: 10px;
+        color: white;
+        text-decoration: none;
+        font-size: 18px;
+        align-items: center;
+        text-align: center;
+    }
+    .motto-banner {
+        padding: 15px;
+        text-align: center;
+        font-size: 50px;
+        font-style: bold;
+        text-shadow: 0 0 10px black;
+    }
+    .media-h ion-icon {
+        font-size: 32px;
+    }
+}
